@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo h1{
+    margin: 20px;
+}
+.conteudo [wm-flappy]{
+    overflow: hidden;
+    width: 1000px;
+    height: 556px;
+    background-color: aqua;
+    border: 5px solid black;
+}
+.conteudo div img{
+    margin-top: 37px;
+    margin-left: 20vw;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+}
+
+h4{
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+.conteudo div [app]{
+    display: flex;
+    background-color: rgb(0,0,0,0);
+    width: 1000px;
+    height: 556px;
+    margin-left: '700px';
+}
+
+.conteudo [canos]{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 260px;
+    align-items: center;
+}
+
+.conteudo [canos] div{
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(0, 175, 0) , rgb(4, 255, 4));
+    width: 70px;
+    border: solid black;
+
+}
